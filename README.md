@@ -73,3 +73,26 @@ Here are some important fields in `GlobalParams.json` to experiment with:
 4. `"InfSetCut": false` - `true` to generate infeasible set cuts; `false` to not generate them.
 
 **Note:** It is advised to only modify the parameters mentioned above. Changing other parameters may lead to decreased performance or unexpected behavior of the algorithm.
+
+## Citation  
+You can find the arXiv version of the paper here: https://arxiv.org/abs/2406.12454.
+
+> 🌟 If you find this resource helpful, please consider starting this repository and cite our research:
+
+```bibtex
+@inproceedings{ijcai2024p218,
+  title     = {A Neural Column Generation Approach to the Vehicle Routing Problem with Two-Dimensional Loading and Last-In-First-Out Constraints},
+  author    = {Xia, Yifan and Zhang, Xiangyi},
+  booktitle = {Proceedings of the Thirty-Third International Joint Conference on
+               Artificial Intelligence, {IJCAI-24}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Kate Larson},
+  pages     = {1970--1978},
+  year      = {2024},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2024/218},
+  url       = {https://doi.org/10.24963/ijcai.2024/218},
+}
+
+```
